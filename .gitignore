@@ -1,0 +1,50 @@
+# SQLite 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+.cursorrules
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 数据目录（如果使用JSON方式）
+data/
+
+# 知识库数据
+knowledge_base/
+
+# 本地敏感配置（不要提交到仓库）
+config.json

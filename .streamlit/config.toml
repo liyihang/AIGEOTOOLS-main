@@ -1,0 +1,20 @@
+[theme]
+base="light"
+primaryColor="#2563EB"
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#F7FAFC"
+textColor="#1A202C"
+
+[server]
+headless = true
+maxUploadSize = 50
+
+[browser]
+gatherUsageStats = false
+
+[api_keys]
+# DeepSeek API Key（推荐，性价比高）
+deepseek = "sk-6fa19fc026f44b26865eaa410fb6234b"
+
+# 通义万相 API Key（图片生成，可选）
+# tongyi_wanxiang = "sk-55d65a19eb7e432286c44aa45364377d"
